@@ -1,0 +1,8 @@
+let exp1 = Add (Num 1, Num 2);;  
+let exp2 = Add (Num 1, Var "x");; 
+let exp3 = Lam ("x", Num 1);;
+let exp4 = App (Lam ("x",Num 1), Num 1);;
+let exp5 = App (Rlam ("x","f" ,( Ifthenelse (Iszero (Var "x"), Num 1, Add (App(Var "f" , Add (Var "x", Num (-1))), Num 1)))),Num 10);;
+let exp6 = App (Rlam ("x","f" ,( Ifthenelse (Iszero (Var "x"), Num 0, Add (App(Var "f" , Add (Var "x", Num (-1))), Var "x")))),Var "y");;
+let exp7 = App (Rlam ("x","f" ,( Ifthenelse (Iszero (Var "x"), Num 1, Mul (App(Var "f" , Add (Var "x", Num (-1))), Var "x")))),Var "y");;
+let exp8 = App (Rlam ("x","f" ,( Ifthenelse (Iszero (Var "x"), Num 1, Ifthenelse(Iszero(Add (Var "x",Num (-1))),Num 1,(Add (App(Var "f" , Add (Var "x", Num (-1))), App(Var "f" , Add (Var "x", Num (-2))))))))),Var "y");;
