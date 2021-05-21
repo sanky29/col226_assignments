@@ -25,4 +25,4 @@ This was one of the toughest assignemt. The goal was to develop interpreter for 
 Simple prolog based assigment which checked type of expressions.
 
 ### A8: Abstract Machine
-Involved making (Kervin Machine)[https://en.wikipedia.org/wiki/Krivine_machine] and (SECD)[https://en.wikipedia.org/wiki/SECD_machine] abstract machines.
+Involved making [Kervin Machine](https://en.wikipedia.org/wiki/Krivine_machine) and [SECD](https://en.wikipedia.org/wiki/SECD_machine) abstract machines.
