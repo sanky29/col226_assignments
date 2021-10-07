@@ -18,7 +18,7 @@ This assignment involved making simple type checker for above toy logic, resolvi
 ### A5: MGU
 Goal of this assignment was to find the most general unifier of two expression.
 
-### 46: Toy Logic Interpreter
+### A4: Toy Logic Interpreter
 This was one of the toughest assignemt. The goal was to develop interpreter for toy logic programming language. The idea was to generate intermediate representation and using backtracking and MGU to resolve goal.
 
 ### A7: Type Checker
